@@ -1,5 +1,5 @@
 const { Discord, Client, Collection } = require("discord.js");
-
+require("dotenv").config()//npm i dotenv
 const client = new Client({
     intents: 32767,
     
